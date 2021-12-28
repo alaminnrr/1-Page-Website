@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    font-size: 1.25rem;
+    word-spacing: 1.25rem;
+    text-align: center;
+    background-color: darkgoldenrod;
+    height: 8vh;
+}
+nav a{
+    text-decoration: none;
+    padding: 0.5rem;  
+}
+.nahi{
+    font-size: 3.25rem;
+    float: left;
+}
+button{
+    width:  20vh;
+    height: 40px;
+    border-radius: 12%;
+}
+button i{
+    float: right;
+}
+.aa img{
+    width: 60%;
+    height: 50vh;
+    padding-left: 300px;   
+}
+@media only screen and (max-width:600px){
+   .aa img{
+        width: 60%;
+        height: 50vh;
+        padding-left:60px; 
+        border-radius: 12px;  
+    }  
+}
+.aaa{
+    text-align: center;
+}
+.aa{
+    background-color: rgb(189, 135, 96);  
+}
+.oran{
+    background-color: orange;
+}
+ .vip{
+     display: grid; 
+     grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.vip1, .vip2, .vip3{   
+    border-radius: 50%;
+    color: rgb(252, 249, 249);
+    width: 7.5rem;
+    height: 7rem;
+    font-size: 5rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.vip1{
+    background-color: rgb(122, 146, 135);
+}
+.vip2{
+    background-color: rgb(39, 116, 77);
+}
+.vip3{
+    background-color: rgb(116, 116, 233);
+} 
+.gdd{
+    background-color: aqua;
+    width: 100%;
+    height: 70vh;
+}
+.pic{
+    text-align: center;
+}
+ .gd{
+    display:inline-grid;
+    margin-left: 20rem;
+    grid-template-columns:  auto auto auto auto;          
+}
+.item1{
+   
+    height: 12.5rem;
+    width: 12.5rem;
+    background: url(./a1\ \(2\).jpg);
+}
+.item1:hover{
+   background: url(./a9\ \(1\).jpg);  
+}
+.item2{   
+    height: 12.5rem;
+    width: 12.5rem;
+    background: url(./a2\ \(2\).jpg);
+}
+.item2:hover{
+   background: url(./a9\ \(1\).jpg);  
+}
+.item3{   
+    height: 12.5rem;
+    width: 12.5rem;
+    background: url(./a3\ \(2\).jpg)
+}
+.item3:hover{
+   background: url(./a9\ \(1\).jpg);  
+}    
+.item4{   
+    height: 12.5rem;
+    width: 12.5rem;
+    background: url(./a4\ \(2\).jpg)
+}
+.item4:hover{
+   background: url(./a9\ \(1\).jpg);  
+} 
+.item5{   
+    height: 12.5rem;
+    width: 12.5rem;
+    background: url(./a5\ \(2\).jpg)
+}
+.item5:hover{
+   background: url(./a9\ \(1\).jpg);  
+} 
+.item6{
+    height: 12.5rem;
+    width: 12.5rem;
+    background: url(./a6\ \(2\).jpg)
+}
+.item6:hover{
+   background: url(./a9\ \(1\).jpg);  
+} 
+.item7{   
+    height: 12.5rem;
+    width: 12.5rem;
+    background: url(./a7.jpg)
+}
+.item7:hover{
+   background: url(./a9\ \(1\).jpg);  
+} 
+.item8{   
+    height: 12.5rem;
+    width: 12.5rem;
+    background: url(./a8.jpg)   
+}
+.item8:hover{
+   background: url(./a9\ \(1\).jpg);  
+} 
+.jjj{
+    font-size: 5rem;
+    padding-left: 15rem;
+} 
+.fan{
+    font-size: 1.25rem;
+    word-spacing: 1rem;
+    background-color: orange;
+    height: 10rem;
+    padding-left: 20px;
+}
+.fan >a{
+    text-decoration: none;
+}
